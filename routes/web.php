@@ -174,6 +174,8 @@ Route::get('/', function () {
             'Stick: AP OFF',
             'AUDIO: 30ft Start Flare',
             'Pedestal: Thrust Levers to IDLE (Before Touchdown)',
+            'AUDIO: RETARD! RETARD! RETARD! (Thrust Levers are NOT IDLE!)',
+            'Pedestal: Reverse Thrust',
         ],
         'Post Flight' => [
             'Overhead: Landing Lights OFF',
@@ -183,12 +185,15 @@ Route::get('/', function () {
         ],
         'Power Down' => [
             'Pedestal: Parking Brake ON',
+            'EFB: Set Chocks',
             'Overhead: Taxi Lights OFF',
             'Overhead: External Power ON',
             'Pedestal: Engine 1 OFF',
             'Pedestal: Engine 2 OFF',
             'Overhead: Battery 1 OFF',
             'Overhead: Battery 2 OFF',
+            'Overhead: Seatbelts OFF',
+            'Clean Up',
         ],
     ];
 
